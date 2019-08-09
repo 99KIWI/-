@@ -5,10 +5,12 @@
 ---------------
 一、单选（2道）<br>
 ---------------
-var reg = /^[a-z]+$/;问[reg.test(null), reg.test()]结果；[true, false]<br>
+var reg = /^[a-z]+$/;So[reg.test(null), reg.test()]结果? [true, false]<br>
+<br>
 一般来说,正则是只匹配字符串的，正则在执行test的时候，会优先调用toString方法，于是null-> 'null'<br>
 
-window的open返回什么（对象？）
+window的open返回什么（对象？）<br>
+Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
 
 二、多选（1）
 ---------------
