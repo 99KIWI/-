@@ -37,6 +37,7 @@ script.___ = function() { //script加载成功
     }
  }
  script.__ = function() {} //加载失败
+
 四、问答题（8）
 XSS攻击预防方法
 前端攻击手段
@@ -44,5 +45,6 @@ readonly和disabled
 onclick和addEventListener
 background-color和background-image占据盒子范围
 Dom操作：添加、删除、移动、复制、创建、查找节点
+
 五、编程题（1）
 找出数组中出现最多的元素，并给出出现过的位置
