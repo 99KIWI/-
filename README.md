@@ -8,6 +8,7 @@ var reg = /^[A-Z]+$/;问[reg.test(null), reg.test()]结果；
 window的open返回什么（对象？）
 
 二、多选（1）
+
 图片下方出现几像素的空白间隙的解决方法？
 
 三、填空
