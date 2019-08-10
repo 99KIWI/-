@@ -17,11 +17,12 @@ Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}<
 #### 图片下方出现几像素的空白间隙的解决方法？<br>
 这个是浏览器的一个设计问题。img本来是行内元素，却可以用width 和height,当父元素没有设置高度的时候，<br>
 用子元素们的高度计算出的高度给父元素的时候就会出现3px空隙这类的问题。<br>
+之所以图片下方会出现几个像素空白的间隙, 是因为 img默认是按照基线(baseline)对齐的<br>
 解决这问题有4个方案，一是给父元素设定高度，二就是设置img为块状元素，三给img设置vertical-algin,四设置line-height和font-size <br>
 方法1：img{display:block;}<br>
 方法2：img{vertical-align:top;}<br>
-除了top值，还可以设置为text-top | middle | bottom | text-bottom，甚至特定的<length>和<percentage>值都可以<br>
-方法3：img{font-size:0;line-height:0;}<br>
+除了top值，还可以设置为text-top | middle | bottom | text-bottom<br>
+方法3：给 img的父级 添加:font-size: 0; line-height: 0;<br>
 
 三、填空（5）
 ---------------
