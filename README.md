@@ -18,11 +18,11 @@ Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}<
 
 三、填空（5）
 ---------------
-在数组最后添加、删除数组最后一个元素的方法？<br>
+在数组最后添加、删除数组最后一个元素的方法？push、pop<br>
 
-[1<2<3, 3<2<1]结果<br>
+[1<2<3, 3<2<1]结果[true, true] 考查类型转换<br>
 
-脱离文档流的position属性<br>
+脱离文档流的position属性 fixed、absolute<br>
 ```
 let a = 10;
 let obj = {
