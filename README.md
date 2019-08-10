@@ -15,6 +15,12 @@ Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}<
 二、多选（1）
 ---------------
 图片下方出现几像素的空白间隙的解决方法？<br>
+这个是浏览器的一个设计问题。img本来是行内元素，却可以用width 和height,当父元素没有设置高度的时候，用子元素们的高度计算出的高度给父元素的时候就会出现3px空隙这类的问题。
+解决这问题有4个方案，一是给父元素设定高度，二就是设置img为块状元素，三给img设置vertical-algin,四设置line-height和font-size 
+方法1：img{display:block;}
+方法2：img{vertical-align:top;}
+除了top值，还可以设置为text-top | middle | bottom | text-bottom，甚至特定的<length>和<percentage>值都可以
+方法3：img{font-size:0;line-height:0;}
 
 三、填空（5）
 ---------------
@@ -40,12 +46,19 @@ func2();  // 5
 ```
 var script = document.createElement('script')
 script.src = "XXX"
-script.___ = function() { //script加载成功
+script.___ = function() { //script加载成功  onload
     if(__.test(script.__)) {   //文件加载成功
       script.onreadystatechange = null;
     }
  }
- script.__ = function() {} //加载失败
+ script.__ = function() {} //加载失败   onerror
+ 
+<script>元素有一个readyState 属性，它的值随着下载外部文件的过程而改变。readyState 有五种取值：
+    “uninitialized”：默认状态
+    “loading”：下载开始
+    “loaded”：下载完成
+    “interactive”：下载完成但尚不可用
+    “complete”：所有数据已经准备好
 ```
 四、问答题（8）
 ---------------
