@@ -33,7 +33,8 @@ let obj = {
 }
 let func = obj.say;
 let func2 = obj.say.bind(obj);
-func();   // undefined
+func();   // undefined  
+大家都知道在全局作用域中用var声明的变量，保存在window对象中 但是用ES6的const或者let在全局作用域中声明的变量，却不在window对象中
 func2();  // 5
 ```
 ```
