@@ -31,25 +31,27 @@ let obj = {
     console.log(this.a)
   }
 }
-let func = obj.say;<br>
-let func2 = obj.say.bind(obj);<br>
-func();   // undefined<br>
-func2();  // 5<br>
+let func = obj.say;
+let func2 = obj.say.bind(obj);
+func();   // undefined
+func2();  // 5
 ```
-var script = document.createElement('script')<br>
-script.src = "XXX"<br>
-script.___ = function() { //script加载成功<br>
-    if(__.test(script.__)) {   //文件加载成功<br>
-      script.onreadystatechange = null;<br>
-    }<br>
- }<br>
- script.__ = function() {} //加载失败<br>
-
+```
+var script = document.createElement('script')
+script.src = "XXX"
+script.___ = function() { //script加载成功
+    if(__.test(script.__)) {   //文件加载成功
+      script.onreadystatechange = null;
+    }
+ }
+ script.__ = function() {} //加载失败
+```
 四、问答题（8）
 ---------------
 XSS攻击预防方法<br>
 前端攻击手段<br>
-readonly和disabled<br>
+readonly和disabled
+<br>
 onclick和addEventListener<br>
 background-color和background-image占据盒子范围<br>
 background-color背景颜色是包含边框border，边框如果不设置颜色，默认会采用文本颜色，而文本颜色默认是黑色。<br>
