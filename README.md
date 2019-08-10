@@ -5,11 +5,11 @@
 ---------------
 一、单选（2道）<br>
 ---------------
-var reg = /^[a-z]+$/;So[reg.test(null), reg.test()]结果? [true, false]<br>
+#### var reg = /^[a-z]+$/;So[reg.test(null), reg.test()]结果? [true, false]<br>
 <br>
 一般来说,正则是只匹配字符串的，正则在执行test的时候，会优先调用toString方法，于是null-> 'null'<br>
 
-window的open返回什么（对象？）<br>
+#### window的open返回什么（对象？）<br>
 Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}<br>
 
 二、多选（1）
@@ -68,12 +68,12 @@ XSS攻击预防方法<br>
 readonly和disabled
 <br>
 onclick和addEventListener<br>
-background-color和background-image占据盒子范围<br>
+#### background-color和background-image占据盒子范围<br>
 background-color背景颜色是包含边框border，边框如果不设置颜色，默认会采用文本颜色，而文本颜色默认是黑色。<br>
 background-image背景图片占据了元素的全部尺寸，包括内边距padding和边框border，但不包括外边距margin。默认背景图片位于元素的左上角，并且在水平和垂直方向重复。<br>
 
-Dom操作：添加、删除、移动、复制、创建、查找节点<br>
+#### Dom操作：添加、删除、移动、复制、创建、查找节点<br>
 
 五、编程题（1）
 ---------------
-找出数组中出现最多的元素，并给出出现过的位置<br>
+#### 找出数组中出现最多的元素，并给出出现过的位置<br>
