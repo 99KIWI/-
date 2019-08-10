@@ -33,8 +33,8 @@ let obj = {
 }
 let func = obj.say;
 let func2 = obj.say.bind(obj);
-func();
-func2();
+func();   // undefined
+func2();  // 5
 
 var script = document.createElement('script')
 script.src = "XXX"
@@ -51,7 +51,10 @@ XSS攻击预防方法
 前端攻击手段
 readonly和disabled
 onclick和addEventListener
-background-color和background-image占据盒子范围
+background-color和background-image占据盒子范围<br>
+background-color背景颜色是包含边框border，边框如果不设置颜色，默认会采用文本颜色，而文本颜色默认是黑色。<br>
+background-image背景图片占据了元素的全部尺寸，包括内边距padding和边框border，但不包括外边距margin。默认背景图片位于元素的左上角，并且在水平和垂直方向重复。<br>
+
 Dom操作：添加、删除、移动、复制、创建、查找节点
 
 五、编程题（1）
