@@ -73,6 +73,19 @@ background-color背景颜色是包含边框border，边框如果不设置颜色�
 background-image背景图片占据了元素的全部尺寸，包括内边距padding和边框border，但不包括外边距margin。默认背景图片位于元素的左上角，并且在水平和垂直方向重复。<br>
 
 #### Dom操作：添加、删除、移动、复制、创建、查找节点<br>
+创建新节点<br>
+createDocumentFragment() //创建一个DOM片段<br>
+createElement() //创建一个具体的元素<br>
+createTextNode() //创建一个文本节点<br>
+添加、移除、替换、插入<br>
+appendChild() //添加<br>
+removeChild() //移除<br>
+replaceChild() //替换<br>
+insertBefore() //插入<br>
+查找<br>
+getElementsByTagName() //通过标签名称<br>
+getElementsByName() //通过元素的Name属性的值<br>
+getElementById() //通过元素Id，唯一性<br>
 
 五、编程题（1）
 ---------------
