@@ -143,6 +143,10 @@ vue和react区别<br>
 
 页面渲染过程<br>
 
+css阻塞、js阻塞、async、defer<br>
+
+图片懒加载<br>
+
 webpack打包过程（问我有没有写过插件）<br>
 
 git 命令（git merge)<br>
