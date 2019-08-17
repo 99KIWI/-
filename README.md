@@ -107,6 +107,14 @@ inline block <br>
 
 怎样才能减少重绘重排<br>
 
+数据类型判断typeof instanceof<br> 
+
+基本数据类型和引用类型区别<br>
+
+for of 与for in 区别 （原型链上不可枚举属性）<br>
+
+null == undefined 0 == null 0 ==undefined 双等与三等区别<br>
+
 cookie（问的比较细）option请求方法<br>
 
 cookie localstorage区别<br>
