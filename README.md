@@ -139,6 +139,8 @@ vue和react区别<br>
 
 继承<br>
 
+数组操作方法map、reduce、splice<br>
+
 页面性能指标(首次渲染时间衡量 onload DOMContentLoaed )<br>
 
 调试、移动端抓包<br>
