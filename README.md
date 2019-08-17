@@ -143,7 +143,7 @@ vue和react区别<br>
 
 页面渲染过程<br>
 
-css阻塞、js阻塞、async、defer<br>
+css阻塞、js阻塞、async、defer的应用场景<br>
 
 图片懒加载<br>
 
