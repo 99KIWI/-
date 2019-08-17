@@ -99,6 +99,8 @@ getElementById() //通过元素Id，唯一性<br>
 
 盒模型<br>
 
+选择器优先级<br>
+
 margin padding 百分比 包含块 BFC<br>
 
 inline block <br>
