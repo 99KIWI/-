@@ -107,7 +107,7 @@ inline block <br>
 
 怎样才能减少重绘重排<br>
 
-cookie（问的比较细）<br>
+cookie（问的比较细）option请求方法<br>
 
 cookie localstorage区别<br>
 
