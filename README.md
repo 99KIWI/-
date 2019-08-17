@@ -91,3 +91,48 @@ getElementById() //通过元素Id，唯一性<br>
 五、编程题（1）
 ---------------
 #### 找出数组中出现最多的元素，并给出出现过的位置<br>
+
+
+美团点评提前批2019-08-16（一面电话面一小时）
+---------------
+项目经验<br>
+
+盒模型<br>
+
+margin padding 百分比 包含块 BFC<br>
+
+inline block <br>
+
+重绘重排<br>
+
+怎样才能减少重绘重排<br>
+
+cookie（问的比较细）<br>
+
+cookie localstorage区别<br>
+
+其他缓存机制<br>
+
+http 状态码304<br>
+
+强缓存 协商缓存<br>
+
+http2.0<br>
+
+vue数据绑定 Obeject.defineProperty proxy <br>
+
+vue和react区别<br>
+
+跨域（cors 前端配置）<br>
+
+原型链<br>
+
+继承<br>
+
+页面性能指标(首次渲染时间衡量 onload DOMContentLoaed )<br>
+
+页面渲染过程<br>
+
+webpack打包过程（问我有没有写过插件）<br>
+
+git 命令（git merge)<br>
